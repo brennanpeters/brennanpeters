@@ -1,16 +1,18 @@
-## 👋 Hey there! I'm Brennan
+<h1 align="center">
+  hi, i'm <span style="color:#a855f7;">brennan</span> 👋
+</h1>
 
-- I'm a **front-end developer** on a journey to turn ideas into sleek, responsive interfaces.  
-- Currently I am learning more and diving deeper into Javascript and Typescript.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=2500&pause=1000&center=true&vCenter=true&multiline=true&width=435&height=60&lines=front-end+developer" alt="Typing animation" />
+</p>
+</p>
 
-[![My Skills](https://skillicons.dev/icons?i=js,ts,html,css,tailwind,figma,git,npm)](https://skillicons.dev)
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=js,ts,html,css,tailwind,figma,vscode,git,npm&theme=light" />
+</p>
 
----
-
-### 🔭 Projects in Progress
-- Blast, a powerful tool in the Roblox Human Resources Industry.
----
-
-### 📫 Let's Connect!
-Feel free to reach me at @realpetes on discord.
-
+<p align="center">
+  <a href="https://discord.com/users/slaypetes">
+    <img src="https://img.shields.io/badge/discord-@slaypetes-5865F2?style=flat-square&logo=discord&logoColor=white" />
+  </a>
+</p>
