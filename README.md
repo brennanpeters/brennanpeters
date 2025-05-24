@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,html,css,tailwind,figma,vscode,git,npm&theme=light" />
+  <img src="https://skillicons.dev/icons?i=js,ts,html,css,tailwind,figma,vscode,git,npm,angular&theme=light" />
 </p>
 
 <p align="center">
