@@ -22,7 +22,7 @@ I'm CEO at Paddlewheel and Vice President at Sleepy Lab Innovations, helping bui
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=angular,nextjs,astro,ts,js,nodejs,laravel,tailwind,lua,go,python,postgres,mysql,mongodb,redis,docker,kubernetes,linux,debian,ubuntu,azure,nginx,cloudflare,git,figma&theme=light" alt="Technologies and tools"/>
+<img src="https://skillicons.dev/icons?i=angular,nextjs,astro,typescript,javascript,tailwind,nodejs,laravel,go,python,lua,postgresql,mysql,mongodb,redis,docker,kubernetes,linux,debian,ubuntu,azure,nginx,cloudflare,git&theme=light" alt="Technologies and tools"/>
 
 </div>
 
