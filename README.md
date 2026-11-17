@@ -22,15 +22,6 @@ I'm CEO at Paddlewheel and Vice President at Sleepy Lab Innovations, helping bui
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=angular,nextjs,astro,typescript,javascript,tailwind,nodejs,laravel,go,python,lua,postgresql,mysql,mongodb,redis,docker,kubernetes,linux,debian,ubuntu,azure,nginx,cloudflare,git&theme=light" alt="Technologies and tools"/>
-
-</div>
-
-### GitHub activity
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=brennanpeters&show_icons=true&hide_border=true&bg_color=00000000&title_color=9B87C9&icon_color=9B87C9&text_color=8B8498&ring_color=B8A5E8&include_all_commits=true" height="155" alt="GitHub statistics"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=brennanpeters&layout=compact&hide_border=true&bg_color=00000000&title_color=9B87C9&text_color=8B8498&langs_count=5" height="155" alt="Most used languages"/>
+<img src="https://skillicons.dev/icons?i=angular,nextjs,astro,typescript,javascript,tailwind,nodejs,laravel,go,python,swift,lua,postgresql,mysql,mongodb,redis,docker,kubernetes,linux,debian,ubuntu,azure,nginx,cloudflare,git&theme=light" alt="Technologies and tools"/>
 
 </div>
