@@ -22,10 +22,10 @@
   <rect x="12" y="12" width="876" height="408" rx="40" fill="#141417"/>
   <rect x="560" y="24" width="316" height="384" rx="36" fill="url(#stage)"/>
   <text class="wave" fill="#F4F4F5" x="718" y="270" font-size="160" text-anchor="middle">👋</text>
-  <text x="60" y="150" fill="#F4F4F5" font-size="60" font-weight="500" letter-spacing="-1.5">Hi, I'm</text>
-  <text x="60" y="218" fill="#F4F4F5" font-size="60" font-weight="500" letter-spacing="-1.5">Brennan Peters</text>
-  <text x="62" y="272" fill="#A1A1AA" font-size="22" font-weight="300">a software developer and entrepreneur.</text>
-  <text x="62" y="322" fill="#71717A" font-size="15" font-weight="400">I design and ship products end to end. Interfaces,</text>
-  <text x="62" y="346" fill="#71717A" font-size="15" font-weight="400">APIs, and infrastructure, with a focus on clarity</text>
-  <text x="62" y="370" fill="#71717A" font-size="15" font-weight="400">and speed.</text>
+  <text x="60" y="138" fill="#F4F4F5" font-size="64" font-weight="500" letter-spacing="-1.6">Hi, I'm</text>
+  <text x="60" y="208" fill="#F4F4F5" font-size="64" font-weight="500" letter-spacing="-1.6">Brennan Peters</text>
+  <text x="62" y="260" fill="#A1A1AA" font-size="24" font-weight="300">a software developer and entrepreneur.</text>
+  <text x="62" y="314" fill="#71717A" font-size="19" font-weight="400">I design and ship products end to end.</text>
+  <text x="62" y="342" fill="#71717A" font-size="19" font-weight="400">Interfaces, APIs, and infrastructure,</text>
+  <text x="62" y="370" fill="#71717A" font-size="19" font-weight="400">with a focus on clarity and speed.</text>
 </svg>

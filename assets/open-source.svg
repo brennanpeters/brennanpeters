@@ -1,7 +1,7 @@
-<svg width="900" height="232" viewBox="0 0 900 232" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" role="img" aria-labelledby="title">
+<svg width="900" height="244" viewBox="0 0 900 244" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" role="img" aria-labelledby="title">
   <title id="title">Open source projects by Brennan</title>
-  <rect x="12" y="12" width="876" height="208" rx="32" fill="#141417"/>
-  <text x="60" y="76" fill="#818CF8" font-size="14" font-weight="500" letter-spacing="0.35">Open source</text>
-  <text x="60" y="122" fill="#F4F4F5" font-size="30" font-weight="500" letter-spacing="-0.75">I love working on and creating</text>
-  <text x="60" y="162" fill="#F4F4F5" font-size="30" font-weight="500" letter-spacing="-0.75">open source projects. Take a peek.</text>
+  <rect x="12" y="12" width="876" height="220" rx="32" fill="#141417"/>
+  <text x="60" y="78" fill="#818CF8" font-size="16" font-weight="500" letter-spacing="0.4">Open source</text>
+  <text x="60" y="128" fill="#F4F4F5" font-size="34" font-weight="500" letter-spacing="-0.85">I love working on and creating</text>
+  <text x="60" y="174" fill="#F4F4F5" font-size="34" font-weight="500" letter-spacing="-0.85">open source projects. Take a peek.</text>
 </svg>

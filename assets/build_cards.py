@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import re
+import textwrap
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
@@ -77,11 +78,10 @@ OPEN_SOURCE = [
         "kind": "Feedback board",
         "logo": "usercue",
         "tile": TILE,
-        "lines": [
-            "A self-hosted feedback home: people post",
-            "suggestions, vote, and follow the roadmap,",
-            "while your team ships and writes the changelog.",
-        ],
+        "description": (
+            "A self-hosted feedback home: people post suggestions, vote, "
+            "and follow the roadmap, while your team ships and writes the changelog."
+        ),
         "stack": [("nextjs", "Next.js"), ("typescript", "TypeScript"), ("postgresql", "PostgreSQL"), ("docker", "Docker")],
         "company": "paddlewheel",
     },
@@ -92,11 +92,10 @@ OPEN_SOURCE = [
         "kind": "HRM for communities",
         "logo": "orbit",
         "tile": "#FF0099",
-        "lines": [
-            "An HRM for virtual communities to manage",
-            "members and track activity, with Discord and",
-            "Roblox integrations and a full admin dashboard.",
-        ],
+        "description": (
+            "An HRM for virtual communities to manage members and track activity, "
+            "with Discord and Roblox integrations and a full admin dashboard."
+        ),
         "stack": [("nextjs", "Next.js"), ("typescript", "TypeScript"), ("supabase", "Supabase"), ("tailwindcss", "Tailwind CSS")],
         "company": "sleepy-lab",
     },
@@ -131,7 +130,7 @@ def text(x, y, value, fill=BODY, size=16, weight=400, tracking=0, anchor=None, f
 
 
 def eyebrow(x, y, value):
-    return text(x, y, value, ACCENT, 14, 500, 0.025)
+    return text(x, y, value, ACCENT, 16, 500, 0.025)
 
 
 def heading(x, y, value, size=30):
@@ -229,18 +228,18 @@ def hero():
         panel(width, height, HERO_RADIUS),
         f'  <rect x="{stage_x}" y="{stage_y}" width="{stage_w}" height="{stage_h}" rx="36" fill="url(#stage)"/>',
         f'  <text class="wave" fill="#F4F4F5" x="{center_x}" y="{center_y + 54}" font-size="160" text-anchor="middle">👋</text>',
-        heading(60, 150, "Hi, I'm", 60),
-        heading(60, 218, "Brennan Peters", 60),
-        text(62, 272, "a software developer and entrepreneur.", BODY, 22, 300),
-        text(62, 322, "I design and ship products end to end. Interfaces,", MUTED, 15),
-        text(62, 346, "APIs, and infrastructure, with a focus on clarity", MUTED, 15),
-        text(62, 370, "and speed.", MUTED, 15),
+        heading(60, 138, "Hi, I'm", 64),
+        heading(60, 208, "Brennan Peters", 64),
+        text(62, 260, "a software developer and entrepreneur.", BODY, 24, 300),
+        text(62, 314, "I design and ship products end to end.", MUTED, 19),
+        text(62, 342, "Interfaces, APIs, and infrastructure,", MUTED, 19),
+        text(62, 370, "with a focus on clarity and speed.", MUTED, 19),
     ]
     return "hero.svg", document(width, height, "Hi, I'm Brennan Peters, a software developer and entrepreneur", body, defs)
 
 
 def tools():
-    per_row, tile, gap = 7, 56, 14
+    per_row, tile, gap = 7, 58, 14
     grid_w = per_row * tile + (per_row - 1) * gap
     left = WIDTH - 60 - grid_w
     top = 66
@@ -249,10 +248,10 @@ def tools():
     body = [
         panel(WIDTH, height),
         eyebrow(60, top + 14, "Tools"),
-        heading(60, top + 56, "These are the"),
-        heading(60, top + 94, "tools I work with."),
-        text(60, top + 130, "From interfaces to APIs", BODY, 15, 300),
-        text(60, top + 152, "and infrastructure.", BODY, 15, 300),
+        heading(60, top + 58, "These are the", 30),
+        heading(60, top + 96, "tools I work with.", 30),
+        text(60, top + 136, "From interfaces to APIs", BODY, 18, 300),
+        text(60, top + 162, "and infrastructure.", BODY, 18, 300),
     ]
     for index, (name, label) in enumerate(TOOLS):
         x = left + (index % per_row) * (tile + gap)
@@ -262,67 +261,78 @@ def tools():
 
 
 def open_source():
-    height = 232
+    height = 244
     body = [
         panel(WIDTH, height),
-        eyebrow(60, 76, "Open source"),
-        heading(60, 122, "I love working on and creating"),
-        heading(60, 162, "open source projects. Take a peek."),
+        eyebrow(60, 78, "Open source"),
+        heading(60, 128, "I love working on and creating", 34),
+        heading(60, 174, "open source projects. Take a peek.", 34),
     ]
     return "open-source.svg", document(WIDTH, height, "Open source projects by Brennan", body)
 
 
+def card_lines(project):
+    return textwrap.wrap(project["description"], 44)
+
+
 def project_card(project):
-    width, height = 450, 420
+    width = 450
     left = 40
-    tile = 56
+    tile = 60
+    line_count = max(len(card_lines(item)) for item in OPEN_SOURCE)
+    lines = card_lines(project)
+    description_top = 228
+    tiles_top = description_top + 26 * (line_count - 1) + 30
+    footer = tiles_top + 42 + 54
+    height = footer + 34 + MARGIN
+    inset = 15 if project["tile"] == TILE else 13
+    company_name, company_logo = COMPANIES[project["company"]]
+
     body = [panel(width, height)]
     body.append(f'  <rect x="{left}" y="48" width="{tile}" height="{tile}" rx="{TILE_RADIUS}" fill="{project["tile"]}"/>')
-    inset = 14 if project["tile"] == TILE else 12
     body.append(logo(left + inset, 48 + inset, tile - 2 * inset, tile - 2 * inset, project["logo"]))
-    body.append(text(left, 142, project["kind"], MUTED, 13))
-    body.append(text(left, 180, project["name"], project["color"], 32, 500, -0.025))
-    for index, line in enumerate(project["lines"]):
-        body.append(text(left, 214 + index * 22, line, BODY, 14, 300))
+    body.append(text(left, 150, project["kind"], MUTED, 15))
+    body.append(text(left, 192, project["name"], project["color"], 38, 500, -0.025))
+    for index, line in enumerate(lines):
+        body.append(text(left, description_top + index * 26, line, BODY, 16, 300))
     for index, (name, label) in enumerate(project["stack"]):
-        body += icon_tile(left + index * 46, 278, 38, name, label, 11)
-    company_name, company_logo = COMPANIES[project["company"]]
-    body.append(text(left, 372, "by", MUTED, 13, 300))
-    body.append(logo(left + 22, 356, 22, 22, company_logo))
-    body.append(text(left + 52, 372, company_name, BODY, 13))
-    body.append(text(width - left, 372, "GitHub  →", ACCENT, 13, 500, anchor="end"))
+        body += icon_tile(left + index * 52, tiles_top, 42, name, label, 12)
+    body.append(text(left, footer, "by", MUTED, 15, 300))
+    body.append(logo(left + 26, footer - 18, 26, 26, company_logo))
+    body.append(text(left + 60, footer, company_name, BODY, 15))
+    body.append(text(width - left, footer, "GitHub  →", ACCENT, 15, 500, anchor="end"))
     return project["file"], document(width, height, f"{project['name']}, an open source project by {company_name}", body)
 
 
 def experience():
-    top, offset = 176, 24
-    height = top + offset + 176 + 52
+    top, offset = 184, 24
+    height = top + offset + 182 + 52
     columns = [60, 480]
     body = [
         panel(WIDTH, height),
-        eyebrow(60, 76, "Experience"),
-        heading(60, 122, "Where I show up."),
+        eyebrow(60, 78, "Experience"),
+        heading(60, 128, "Where I show up.", 34),
     ]
     for index, (company, role, period) in enumerate(EXPERIENCE):
         x = columns[index]
         y = top + index * offset
         company_name, _ = COMPANIES[company]
-        body.append(logo(x, y, 72, 64, company))
-        body.append(text(x, y + 118, role, STRONG, 28, 500, -0.025))
-        body.append(text(x, y + 148, company_name, BODY, 16, 300))
-        body.append(text(x, y + 176, period, MUTED, 13))
+        body.append(logo(x, y, 76, 68, company))
+        body.append(text(x, y + 124, role, STRONG, 30, 500, -0.025))
+        body.append(text(x, y + 156, company_name, BODY, 19, 300))
+        body.append(text(x, y + 184, period, MUTED, 16))
     return "experience.svg", document(WIDTH, height, "Where Brennan works", body)
 
 
 def contact():
-    height = 300
+    height = 330
     body = [
         panel(WIDTH, height),
-        eyebrow(60, 76, "Contact"),
-        heading(60, 132, "Got a project in mind?", 38),
-        text(62, 176, "I'm always happy to chat about interesting ideas, collaborations,", BODY, 15, 300),
-        text(62, 200, "or products worth building.", BODY, 15, 300),
-        text(60, 246, "hello@brennanpeters.ca  →", ACCENT, 18, 500),
+        eyebrow(60, 78, "Contact"),
+        heading(60, 140, "Got a project in mind?", 44),
+        text(62, 188, "I'm always happy to chat about interesting ideas, collaborations,", BODY, 18, 300),
+        text(62, 216, "or products worth building.", BODY, 18, 300),
+        text(60, 272, "hello@brennanpeters.ca  →", ACCENT, 22, 500),
     ]
     return "contact.svg", document(WIDTH, height, "Get in touch with Brennan", body)
 

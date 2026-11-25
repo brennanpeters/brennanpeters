@@ -1,9 +1,9 @@
-<svg width="900" height="428" viewBox="0 0 900 428" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" role="img" aria-labelledby="title">
+<svg width="900" height="442" viewBox="0 0 900 442" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" role="img" aria-labelledby="title">
   <title id="title">Where Brennan works</title>
-  <rect x="12" y="12" width="876" height="404" rx="32" fill="#141417"/>
-  <text x="60" y="76" fill="#818CF8" font-size="14" font-weight="500" letter-spacing="0.35">Experience</text>
-  <text x="60" y="122" fill="#F4F4F5" font-size="30" font-weight="500" letter-spacing="-0.75">Where I show up.</text>
-  <svg x="60" y="176" width="72" height="64" viewBox="0 0 2295 2292" preserveAspectRatio="xMinYMid meet" fill="#000">
+  <rect x="12" y="12" width="876" height="418" rx="32" fill="#141417"/>
+  <text x="60" y="78" fill="#818CF8" font-size="16" font-weight="500" letter-spacing="0.4">Experience</text>
+  <text x="60" y="128" fill="#F4F4F5" font-size="34" font-weight="500" letter-spacing="-0.85">Where I show up.</text>
+  <svg x="60" y="184" width="76" height="68" viewBox="0 0 2295 2292" preserveAspectRatio="xMinYMid meet" fill="#000">
 <path d="M1144.58 0C1779.94 0.000280012 2295 515.062 2295 1150.42C2295 1730.61 1865.51 2210.48 1307.13 2289.45V1826.63C1612.72 1753.43 1839.89 1478.46 1839.89 1150.42C1839.89 766.415 1528.59 455.114 1144.58 455.113C800.993 455.113 515.616 704.322 459.338 1031.84H0.19043C59.5452 452.194 549.252 0.000436685 1144.58 0H1144.58Z" fill="#129E8E"/>
 <path d="M500.074 1825.5V2289.45L1214.83 2291.35C1214.83 2291.35 1264.19 2291.8 1270.76 2291.35H1295.74L1309.16 2289.11L1318.11 2263.38L1332.17 1825.5H1308.79H1304.12H1276.07H500.074Z" fill="url(#paddlewheel-paint0_linear_101_7)"/>
 <path d="M466.88 2289.65H2.92732L0 1033.27L0.372874 1029.91L1.86437 1017.61L459.754 1028.79C459.754 1028.79 458.185 1037.94 458.636 1048.56C459.086 1059.17 459.754 1134.69 459.754 1134.69L466.88 2289.65Z" fill="url(#paddlewheel-paint1_linear_101_7)"/>
@@ -18,13 +18,13 @@
 </linearGradient>
 </defs>
 </svg>
-  <text x="60" y="294" fill="#F4F4F5" font-size="28" font-weight="500" letter-spacing="-0.7">Chief Executive Officer</text>
-  <text x="60" y="324" fill="#A1A1AA" font-size="16" font-weight="300">Paddlewheel Inc.</text>
-  <text x="60" y="352" fill="#71717A" font-size="13" font-weight="400">June 2026 to Present</text>
-  <svg x="480" y="200" width="72" height="64" viewBox="0 0 5816 5087" preserveAspectRatio="xMinYMid meet" fill="#000">
+  <text x="60" y="308" fill="#F4F4F5" font-size="30" font-weight="500" letter-spacing="-0.75">Chief Executive Officer</text>
+  <text x="60" y="340" fill="#A1A1AA" font-size="19" font-weight="300">Paddlewheel Inc.</text>
+  <text x="60" y="368" fill="#71717A" font-size="16" font-weight="400">June 2026 to Present</text>
+  <svg x="480" y="208" width="76" height="68" viewBox="0 0 5816 5087" preserveAspectRatio="xMinYMid meet" fill="#000">
 <path d="M1002.36 4689.85C1018.58 4762.46 1232.09 4774.07 1326.68 4762.46C1457.61 4746.38 1481.31 4558.45 1490.46 4426.85C1510.35 4140.7 1538.51 3713.84 1569.92 3513.59C1610.46 3255.11 1632.08 3374.18 1678.03 3339.33C1723.97 3304.48 1745.59 3263.82 1799.64 3339.33C1853.7 3414.85 1918.56 3470.03 1948.29 3716.9C1978.02 3963.76 1988.83 4352.95 1948.29 4573.67C1907.75 4794.4 1775.32 4739.22 1745.59 4820.54C1715.86 4901.86 1745.59 4951.24 1799.64 4980.28C1853.7 5009.32 1929.37 5023.85 2015.86 4965.76C2102.34 4907.67 2188.82 4980.28 2232.07 4689.85C2275.31 4399.42 2210.45 3772.08 2232.07 3513.59C2253.69 3255.11 2242.88 3443.89 2340.17 3397.42C2437.47 3350.95 2540.17 3304.48 2718.54 3281.25C2896.92 3258.01 3005.02 3182.5 3232.05 3281.25C3459.07 3379.99 3705.01 3615.24 3853.65 3774.98C4002.3 3934.72 3964.46 3920.2 3975.27 4079.94C3986.08 4239.68 3891.49 4463.31 3907.71 4573.67C3923.92 4684.04 3999.6 4646.28 4056.35 4631.76C4113.11 4617.24 4159.05 4684.04 4191.48 4501.07C4223.92 4318.09 4191.48 3873.73 4218.51 3716.9C4245.54 3560.06 4242.83 3667.52 4326.62 3716.9C4410.4 3766.27 4540.12 3853.4 4637.42 3963.76C4734.71 4074.13 4794.17 4108.98 4813.09 4268.72C4832.01 4428.46 4707.69 4663.71 4732.01 4762.46C4756.34 4861.2 4867.14 4788.6 4934.71 4762.46C5002.28 4736.32 5032.01 4701.47 5069.84 4631.76C5107.68 4562.06 5150.92 4596.91 5123.9 4413.94C5096.87 4230.96 5032.01 3966.67 4934.71 3716.9C4837.42 3467.12 4713.09 3365.47 4637.42 3165.07C4561.75 2964.67 4442.83 2764.27 4556.34 2714.9C4669.85 2665.53 4972.55 2900.78 5204.97 2918.2C5437.4 2935.63 5653.61 2860.12 5718.48 2802.03C5783.34 2743.94 5631.99 2662.62 5529.29 2627.77C5426.59 2592.92 5364.43 2656.81 5204.97 2627.77C5045.52 2598.73 5002.28 2656.81 4732.01 2482.55C4461.75 2308.29 4186.08 1916.21 3853.65 1756.47C3521.23 1596.73 3394.2 1753.57 3069.89 1683.86C2745.57 1614.16 2475.3 1553.17 2232.07 1407.95C1988.83 1262.73 2005.05 1181.41 1853.7 957.779C1702.35 734.145 1645.59 464.042 1475.33 289.782C1305.06 115.522 1167.23 106.809 1002.36 86.4788C837.503 66.1485 756.424 103.905 651.021 188.13C545.617 272.356 586.157 394.338 475.349 507.607C364.54 620.876 151.032 644.111 96.9787 754.476C42.9258 864.84 140.222 946.162 191.572 1030.39C266.267 1152.9 447.069 1000.83 590.5 996.661C654.963 994.786 723.025 1062.62 813.179 1306.3C991.554 1788.42 1159.12 2967.58 1245.6 3586.2C1332.09 4204.82 1294.25 4178.69 1245.6 4399.41C1196.95 4620.14 986.148 4617.24 1002.36 4689.85Z" fill="#ED68A8" stroke="#ED68A8" stroke-width="162.159" stroke-linecap="round"/>
 </svg>
-  <text x="480" y="318" fill="#F4F4F5" font-size="28" font-weight="500" letter-spacing="-0.7">Vice President</text>
-  <text x="480" y="348" fill="#A1A1AA" font-size="16" font-weight="300">Sleepy Lab Innovations Inc.</text>
-  <text x="480" y="376" fill="#71717A" font-size="13" font-weight="400">January 2026 to Present</text>
+  <text x="480" y="332" fill="#F4F4F5" font-size="30" font-weight="500" letter-spacing="-0.75">Vice President</text>
+  <text x="480" y="364" fill="#A1A1AA" font-size="19" font-weight="300">Sleepy Lab Innovations Inc.</text>
+  <text x="480" y="392" fill="#71717A" font-size="16" font-weight="400">January 2026 to Present</text>
 </svg>
