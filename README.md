@@ -1,27 +1,17 @@
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FAF8FF,100:EEE7FF&height=180&section=header&text=brennan&fontSize=58&fontColor=29243A&fontAlignY=45&desc=software%20developer&descSize=15&descColor=817793&descAlignY=70" width="100%" alt="Brennan — Software Developer"/>
-
-<p>building useful things, thoughtfully.</p>
-
-<a href="https://brennanpeters.ca/"><img src="https://img.shields.io/badge/portfolio-29243A?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
-<a href="https://github.com/brennanpeters"><img src="https://img.shields.io/badge/github-E9E2FA?style=flat-square&logo=github&logoColor=625080" alt="GitHub"/></a>
-<a href="https://discord.com/users/slaypetes"><img src="https://img.shields.io/badge/discord-E9E2FA?style=flat-square&logo=discord&logoColor=625080" alt="Discord"/></a>
-
+<img src="./assets/hero.svg" width="100%" alt="Hi, I'm Brennan Peters, a software developer and entrepreneur." /><br />
+<img src="./assets/tools.svg" width="100%" alt="Tools: Angular, Next.js, HTML, CSS, JavaScript, TypeScript, Tailwind CSS, NestJS, Node.js, Laravel, Lua, Discord.js, MySQL, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, Git, npm, pnpm, VS Code, Azure, Debian, Ubuntu, Python, Cloudflare, and Figma." /><br />
+<img src="./assets/open-source.svg" width="100%" alt="I love working on and creating open source projects. Take a peek." /><br />
+<a href="https://github.com/Paddlewheel-Inc/usercue"><img src="./assets/open-source-usercue.svg" width="49.5%" alt="UserCue, a self-hosted feedback board by Paddlewheel Inc." /></a>
+<a href="https://github.com/PlanetaryOrbit/orbit"><img src="./assets/open-source-orbit.svg" width="49.5%" alt="Orbit, an HRM for virtual communities by Sleepy Lab Innovations." /></a><br />
+<img src="./assets/experience.svg" width="100%" alt="Experience: Chief Executive Officer at Paddlewheel Inc., Vice President at Sleepy Lab Innovations Inc." /><br />
+<a href="mailto:hello@brennanpeters.ca"><img src="./assets/contact.svg" width="100%" alt="Got a project in mind? hello@brennanpeters.ca" /></a>
 </div>
 
-### About
-
-I'm Brennan Peters, a software developer and entrepreneur who enjoys bringing ideas to life through thoughtful design and engineering.
-
-I build products end to end, from interfaces and APIs to the infrastructure that keeps everything running. I'm especially interested in the intersection of product design, software engineering, and systems infrastructure.
-
-I'm CEO at Paddlewheel and Vice President at Sleepy Lab Innovations, helping build products and explore new ideas across software and infrastructure.
-
-### Tech stack
-
 <div align="center">
-
-<img src="https://skillicons.dev/icons?i=angular,nextjs,astro,typescript,javascript,tailwind,nodejs,laravel,go,python,swift,lua,postgresql,mysql,mongodb,redis,docker,kubernetes,linux,debian,ubuntu,azure,nginx,cloudflare,git&theme=light" alt="Technologies and tools"/>
-
+<br />
+<a href="https://brennanpeters.ca"><img src="./assets/link-portfolio.svg" height="32" alt="brennanpeters.ca" /></a>
+<a href="https://github.com/brennanpeters"><img src="./assets/link-github.svg" height="32" alt="GitHub" /></a>
+<a href="https://discord.com/users/slaypetes"><img src="./assets/link-discord.svg" height="32" alt="Discord" /></a>
+<a href="mailto:hello@brennanpeters.ca"><img src="./assets/link-email.svg" height="32" alt="Email" /></a>
 </div>

@@ -1,0 +1,9 @@
+<svg width="900" height="300" viewBox="0 0 900 300" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" role="img" aria-labelledby="title">
+  <title id="title">Get in touch with Brennan</title>
+  <rect x="12" y="12" width="876" height="276" rx="32" fill="#141417"/>
+  <text x="60" y="76" fill="#818CF8" font-size="14" font-weight="500" letter-spacing="0.35">Contact</text>
+  <text x="60" y="132" fill="#F4F4F5" font-size="38" font-weight="500" letter-spacing="-0.95">Got a project in mind?</text>
+  <text x="62" y="176" fill="#A1A1AA" font-size="15" font-weight="300">I'm always happy to chat about interesting ideas, collaborations,</text>
+  <text x="62" y="200" fill="#A1A1AA" font-size="15" font-weight="300">or products worth building.</text>
+  <text x="60" y="246" fill="#818CF8" font-size="18" font-weight="500">hello@brennanpeters.ca  →</text>
+</svg>
